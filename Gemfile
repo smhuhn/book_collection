@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby "3.3.9"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.3"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -33,9 +35,6 @@ gem "bootsnap", require: false
 
 gem 'rexml'
 gem 'rubocop'
-group :development, :test do
-  gem 'debug', platforms: %i[ mri mingw x64_mingw ]
-end
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
 gem "kamal", require: false
