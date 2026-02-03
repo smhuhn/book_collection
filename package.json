@@ -1,0 +1,13 @@
+{
+  "name": "book_collection",
+  "version": "1.0.0",
+  "description": "A Rails app for book collection",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec puma -C config/puma.rb",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
