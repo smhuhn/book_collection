@@ -4,6 +4,6 @@
 
 <div>
   <%= link_to "Edit this book", edit_book_path(@book) %> |
-  <%= link_to "Delete this book", @book, method: :delete, data: { confirm: "Are you sure?" } %> |
+  <%= button_to "Delete this book", @book, method: :delete, data: { confirm: "Are you sure?" } %> |
   <%= link_to "Back to books", books_path %>
 </div>
